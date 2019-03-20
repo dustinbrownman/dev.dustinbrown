@@ -2,6 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 disableKinds = ["RSS"]
+publishDir = "public"
 
 [Author]
   name = "Dustin Brown"
