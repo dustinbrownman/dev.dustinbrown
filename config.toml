@@ -4,6 +4,10 @@ theme = "hello-friend-ng"
 disableKinds = ["RSS"]
 publishDir = "public"
 
+[submodule "themes/hello-friend-ng"]
+  path = themes/hello-friend-ng
+  url = https://github.com/dustinbrownman/hugo-theme-hello-friend-ng.git
+
 [Author]
   name = "Dustin Brown"
 
