@@ -1,0 +1,8 @@
+{{ $original := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
+{{ $height := .Get 1 }}
+{{ $anchor := .Get 2 }}
+{{ $width :=  "800" }}
+{{ $options := (printf "%sx%s %s" $width $height $anchor) }}
+{{ $image := ($original.Fill $options) }}
+
+<img src="{{ $image.RelPermalink }}" alt="Me at the Laphroaig Distillery in Islay, Scotland" title="Me at Laphroaig">
