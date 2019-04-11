@@ -1,3 +1,9 @@
 h1#home-title {
     display: block;
 }
+
+.logo {
+    &__cursor {
+        background: #f39c12;
+    }
+}
