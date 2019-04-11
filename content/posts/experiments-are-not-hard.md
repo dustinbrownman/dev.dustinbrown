@@ -3,7 +3,6 @@ title: "Experiments Aren't Hard"
 date: 2019-04-10T22:08:02-07:00
 draft: true
 toc: false
-images:
 tags:
   - experimentation
   - ABtesting
