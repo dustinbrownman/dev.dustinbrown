@@ -3,6 +3,7 @@ languageCode = "en-us"
 theme = "hello-friend-ng"
 disableKinds = ["RSS"]
 publishDir = "public"
+preserveTaxonomyNames = true
 
 [Author]
   name = "Dustin Brown"
