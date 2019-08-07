@@ -29,7 +29,7 @@ preserveTaxonomyNames = true
 # Social icons
   [[params.social]]
     name = "email"
-    url  = "mailto:;me@dustinbrown.dev"
+    url  = "mailto:me@dustinbrown.dev"
 
   [[params.social]]
     name = "github"
