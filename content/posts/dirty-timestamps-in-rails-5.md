@@ -144,3 +144,6 @@ We haven't come on a diffinitive solution for this yet. One prevailing thought i
 ### One last thing
 
 I did spend time digging through Rails source code (and using the trusty `pry`) to try and understand exactly what changed between rails 4.2 and 5.0. While I definitely found some differences (hello `ActiveModel::AttributeMutationTracker`), I don't understand enough about the underlying implementation to know for sure why these attributes behave differently. If you know, or can point me in the right direction, hit me up on Twitter and I'll add your thoughts with credit here.
+
+__Let's chat. Feel free to respond to my tweet about this post to start a conversation. 🙃__
+{{< tweet 1169518865971216385 >}}
