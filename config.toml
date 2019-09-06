@@ -24,7 +24,8 @@ preserveTaxonomyNames = true
   # Default theme "light" or "dark"
   defaultTheme = "light"
 
-  customSCSS = ["scss/custom.scss"]
+  customSCSS = ["scss/custom.scss", "css/dank-mono.css"]
+
 
 # Social icons
   [[params.social]]

@@ -7,3 +7,10 @@ h1#home-title {
         background: #f39c12;
     }
 }
+
+code {
+    font-family: 'dm';
+    &[class*="language-"] {
+        font-family: 'dm';
+    }
+}
