@@ -1,4 +1,4 @@
-# [dustinbrown.dev](dustinbrown.dev)
+# [dustinbrown.dev](https://dustinbrown.dev)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/eedec2b6-b65d-469f-824f-5aa4c5b9bc1f/deploy-status)](https://app.netlify.com/sites/thirsty-roentgen-272adb/deploys)
 
