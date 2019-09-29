@@ -147,5 +147,3 @@ I did spend time digging through Rails source code (and using the trusty `pry`) 
 
 __Let's chat. Feel free to respond to my tweet about this post to start a conversation. 🙃__
 {{< tweet 1169519933148954625 >}}
-
-test change at the bottom here (again)
