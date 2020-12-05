@@ -11,7 +11,7 @@ author:
 
 {{< full-width-image "dustin-laphroaig-b&w" 350 Bottom >}}
 
-I've been a full stack web developer for 5+ years. While I’ve primarily worked in Ruby, JavaScript, and Java, I’m comfortable with most high-level languages. Lately I’ve been advocating for good experiment design and exploring conversational interfaces.
+I've been a full stack web developer for 5+ years. While I’ve primarily worked in Ruby, JavaScript, and Java, I’m comfortable with most high-level languages. Lately I’ve been thinking about complex user structures and how to help customers reach their goals.
 
 - __Problem-solver__: This is what hooked me on software development: the ability to dive in and solve complex problems. Whether it’s fixing bugs or executing company goals, I love breaking problems down and teasing out the solution.
 
