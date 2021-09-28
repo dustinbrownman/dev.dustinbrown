@@ -13,7 +13,7 @@ author:
   email: "me@dustinbrown.dev"
 ---
 
-These week a ran a fun experiment I thought others would get a kick out of.
+This week I ran a fun experiment and thought others would get a kick out of it.
 
 Over the last couple of weeks I've been working on an automation project. I can't go into details, but the project was unlike anything I'd ever worked on. Lots of tinkering, testing, and trial and error.
 
