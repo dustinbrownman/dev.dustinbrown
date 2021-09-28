@@ -13,6 +13,8 @@ author:
   email: "me@dustinbrown.dev"
 ---
 
+{{< full-width-image "dice.jpg" 250 Center >}}
+
 This week I ran a fun experiment and thought others would get a kick out of it.
 
 Over the last couple of weeks I've been working on an automation project. I can't go into details, but the project was unlike anything I'd ever worked on. Lots of tinkering, testing, and trial and error.
@@ -49,19 +51,21 @@ These flow are going to be used by real people. They aren't concerned with, nor 
 
 "Okay, here is your background info for the test. It's supposed to be somewhat vague, but if you're really confused let me know. I'm going to run the script in about 10 minutes. Thank you again for agreeing to help!"
 
-I was going out on a limb here. I didn't want to waste my teammates' time with my silly experiment, but I knew I couldn't just spell out steps without spoiling the point of their testing. Instead, I gave each person a character.
+I was going out on a limb here. I didn't want to waste my teammates' time with my silly experiment, but I knew I couldn't just spell out steps without spoiling the point of their testing. So I rolled the dice and gave each person a character.
 
 Like an old [text adventure game](https://en.wikipedia.org/wiki/Interactive_fiction), each person was set up with a brief but rich background.
 
-```
-You helped build Git Smart, a tool for teaching new developers how to use
-Git. At first, you were the only developer on the project. As it's grown,
-you've decided to collaborate with other devs (some of the same folks that
-learned via Git Smart). You're looking for a platform to collaborate on
-and have decided to investigate GitHub. Once you read what they have to
-offer on their homepage, you are compelled to sign up and try out their
-service.
-```
+<div class="zork">
+    <p>
+      You helped build Git Smart, a tool for teaching new developers how to use Git.
+    </p>
+    <p>
+      At first, you were the only developer on the project. As it's grown, you've decided to collaborate with other devs (some of the same folks that learned via Git Smart). You're looking for a platform to collaborate on and have decided to investigate GitHub.
+    </p>
+    <p>
+      Once you read what they have to offer on their homepage, you are compelled to sign up and try out their service.
+    </p>
+</div>
 
 (Forgive the cheesiness, this is just for illustrative purposes only 😅)
 
