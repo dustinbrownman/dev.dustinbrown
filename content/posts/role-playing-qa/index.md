@@ -79,3 +79,8 @@ Everyone made it through their flow (yay!). There was some confusion -- not ever
 They were each able to provide detailed and qualitative feedback. I loved hearing the stories of what they tried and how it worked (or broke) for them. Those stories were much more valuable then the simple "did it work?" answers I would have gotten by laying out all the steps.
 
 Plus, it was a lot of fun coming up with those stories. And the team seem to have fun with it too. I'm not sure this will be practical for every testing scenario I'll need to run, but it's definitely a tool I'm keeping in by belt going forward.
+
+---
+
+_I'm not brave enough to host comments here, but feel free to hit me up on Twitter._
+{{< tweet 1443350404490616836 >}}
