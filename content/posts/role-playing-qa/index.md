@@ -1,5 +1,6 @@
 ---
 title: "Role Playing QA"
+description: A fun experiment in testing my application by playing the role of a user
 date: 2021-09-29T22:00:00Z
 draft: false
 toc: false
