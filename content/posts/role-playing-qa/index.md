@@ -13,7 +13,8 @@ author:
   email: "me@dustinbrown.dev"
 ---
 
-{{< full-width-image "dice.jpg" 250 Center >}}
+{{< full-width-image "dice.jpg" 250 Center "two dice" "Two twenty-sided dice side-by-side. One die, black, is showing a 1 and the other, green, is showing a 20" >}}
+<em class="attribution">Photo by [Lucas Santos](https://unsplash.com/@_staticvoid) on [Unsplash](https://unsplash.com)</em>
 
 This week I ran a fun experiment and thought others would get a kick out of it.
 
@@ -56,24 +57,25 @@ I was going out on a limb here. I didn't want to waste my teammates' time with m
 Like an old [text adventure game](https://en.wikipedia.org/wiki/Interactive_fiction), each person was set up with a brief but rich background.
 
 <div class="zork">
-    <p>
-      You helped build Git Smart, a tool for teaching new developers how to use Git.
-    </p>
-    <p>
-      At first, you were the only developer on the project. As it's grown, you've decided to collaborate with other devs (some of the same folks that learned via Git Smart). You're looking for a platform to collaborate on and have decided to investigate GitHub.
-    </p>
-    <p>
-      Once you read what they have to offer on their homepage, you are compelled to sign up and try out their service.
-    </p>
+  <p>
+    You helped build Git Smart, a tool for teaching new developers how to use Git.
+  </p>
+  <p>
+    At first, you were the only developer on the project. As it's grown, you've decided to collaborate with other devs (some of the same folks that learned via Git Smart). You're looking for a platform to collaborate on and have decided to investigate GitHub.
+  </p>
+  <p>
+    Once you read what they have to offer on their homepage, you are compelled to sign up and try out their service.
+  </p>
 </div>
 
-(Forgive the cheesiness, this is just for illustrative purposes only 😅)
+_(The actual test flows were a bit more complicated then navigating to a signup form, but hopefully this get's the point across.)_
 
-- I gave the "character sheets" to each of my teammates, ran the script to ping them, and waited
-- maybe something about their reaction "whoa, this is fun!"
-- Sucess!
-  - Each person understood the assignment and knew what they needed to do
-  - Got some good feedback on how each flow can be approved
-    - "I didn't see anything happen when I did X so I tried it again
-    - "I wasn't sure what to fill in at this point"
+With that, I left it up to them to figure out what to do.
 
+## Feedback loot
+
+Everyone made it through their flow (yay!). There was some confusion -- not everything went exactly as planned, but no show-stoppers.
+
+They were each able to provide detailed and qualitative feedback. I loved hearing the stories of what they tried and how it worked (or broke) for them. Those stories were much more valuable then the simple "did it work?" answers I would have gotten by laying out all the steps.
+
+Plus, it was a lot of fun coming up with those stories. And the team seem to have fun with it too. I'm not sure this will be practical for every testing scenario I'll need to run, but it's definitely a tool I'm keeping in by belt going forward.
