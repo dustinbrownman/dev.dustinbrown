@@ -1,6 +1,6 @@
 ---
 title: "Role Playing QA"
-date: 2021-09-29 22:38:21 -0700
+date: 2021-09-29T22:00:00Z
 draft: false
 toc: false
 images: [dice.jpg]
