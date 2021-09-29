@@ -9,7 +9,7 @@ author:
     email: "me@dustinbrown.dev"
 ---
 
-{{< full-width-image "dustin-laphroaig-b&w" 350 Bottom >}}
+{{< full-width-image "dustin-laphroaig-b&w" 350 Bottom "Me at Laphroaig" "Me at the Laphroaig Distillery in Islay, Scotland" >}}
 
 I've been a full stack web developer for 5+ years. While I’ve primarily worked in Ruby, JavaScript, and Java, I’m comfortable with most high-level languages. Lately I’ve been thinking about complex user structures and how to help customers reach their goals.
 
