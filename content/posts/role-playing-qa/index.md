@@ -47,7 +47,7 @@ One of the big advantage of these kinds of tests is they cause you to be explici
 
 Having that mental checklist of what the user flow should look like is crucial during development. But if I were to give these steps to my teammates I would miss testing _its intuitive-ness_.
 
-These flow are going to be used by real people. They aren't concerned with, nor do they know about an aribitrary set of steps I've lined up. They have circumstances and goals. When my application is finally released, there is only one question I care about: **does it help people reach their goals given their circumstances?**
+These flow are going to be used by real people. They aren't concerned with, nor do they know about an arbitrary set of steps I've lined up. They have circumstances and goals. When my application is finally released, there is only one question I care about: **does it help people reach their goals given their circumstances?**
 
 ## Character sheets
 
