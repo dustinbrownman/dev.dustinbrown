@@ -45,7 +45,7 @@ if (guests):
             guest_output += f" - {guest['organization']}"
 
         if (guest.get("wiki", False)):
-            guest_output += f"[Wikipedia]({guest['wiki']['url']})"
+            guest_output += f" [[Wikipedia]({guest['wiki']['url']})]"
 
         template += f"{guest_output}\n"
 
