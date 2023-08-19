@@ -52,7 +52,7 @@ if (highlights):
     template += f"\n## Highlights\n\n"
     template += f"{highlights}\n"
 
-new_file = open(f"./content/podcasts/{filename}", "w+")
+new_file = open(f"{filename}", "w+")
 
 new_file.write(template)
 new_file.close()
