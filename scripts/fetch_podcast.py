@@ -17,7 +17,7 @@ if (not details):
     print("No podcast details found")
     exit()
 
-filename = "-".join(f"{details['podcast_title']} {details['episode_title']}.json".lower().split(" "))
+filename = "-".join(f"{details['podcast_title']} {details['episode_title']}.md".lower().split(" "))
 
 template = f"""---
 title: {details['podcast_title']} | {details['episode_title']}
@@ -52,7 +52,7 @@ if (highlights):
     template += f"\n## Highlights\n\n"
     template += f"{highlights}\n"
 
-new_file = open(f"../content/podcasts/{filename}", "w")
+new_file = open(f"../content/podcasts/{filename}", "w+")
 
 new_file.write(template)
 new_file.close()
