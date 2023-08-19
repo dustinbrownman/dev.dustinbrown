@@ -32,11 +32,11 @@ jobs:
         run: |
           modal token set --token-id ${{ secrets.MODAL_TOKEN_ID }} --token-secret ${{ secrets.MODAL_TOKEN_SECRET }}
       - name: Execute manual script
-        if: inputs.feedUrl
+        if: ${{ inputs.feedUrl != '' }}
         run: |
           python scripts/fetch_podcast.py ${{ inputs.feedUrl }}
       - name: Execute automatic script
-        if: !inputs.feedUrl
+        if: ${{ inputs.feedUrl == '' }}
         run: |
           python scripts/fetch_podcast.py https://feeds.simplecast.com/2V4dK4EE https://feeds.simplecast.com/ioCY0vfY https://www.marketplace.org/feed/podcast/marketplace
       - name: Commit and push changes
