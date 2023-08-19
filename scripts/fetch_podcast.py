@@ -14,10 +14,10 @@ if (not podcast_details):
     print("No podcast details found")
     exit()
 
-filename = f"{podcast_details['podcast_title']} {podcast_details['episode_title']}.json".split(" ").join("-")
+filename = "-".join(f"{podcast_details['podcast_title']} {podcast_details['episode_title']}.json".lower.split(" "))
 
 template = f"""---
-title: {podcast_details['episode_title']}
+title: {podcast_details['podcast_title']} | {podcast_details['episode_title']}
 date: {date.today()}
 ---
 
