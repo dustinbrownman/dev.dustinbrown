@@ -3,7 +3,7 @@ import modal
 import json
 from datetime import date
 
-feed_url = sys.argv[0]
+feed_url = sys.argv[1]
 
 func = modal.Function.lookup("corise-podcast-project", "process_podcast")
 
