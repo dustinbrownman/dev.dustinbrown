@@ -7,7 +7,7 @@ feed_url = sys.argv[0]
 
 func = modal.Function.lookup("corise-podcast-project", "process_podcast")
 
-output = func.call(feed_url, '/content/podcast/')
+output = func.remote(feed_url, '/content/podcast/')
 
 podcast_details = json.loads(output)
 
@@ -26,16 +26,16 @@ date: {date.today()}
 
 """
 
-for guest in podcast_details["guests"]:
+for guest in podcast_details["podcast_guests"]:
     guest_output = f"- {guest['name']}"
 
-    if (guest["title"]):
+    if (guest.get("title", False)):
         guest_output += f" - _{guest['title']}_"
 
-    if (guest["organization"]):
+    if (guest.get("organization", False)):
         guest_output += f" - {guest['organization']}"
 
-    if (guest["wiki"]):
+    if (guest.get("wiki", False)):
         guest_output += f"[Wikipedia]({guest['wiki']['url']})"
 
     template += f"{guest_output}\n"
