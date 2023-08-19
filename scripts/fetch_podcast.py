@@ -1,13 +1,18 @@
 import sys
 import modal
-import json
 from datetime import date
 
 feed_url = sys.argv[1]
 
 func = modal.Function.lookup("corise-podcast-project", "process_podcast")
 
-podcast_details = func.remote(feed_url, '/content/podcast/')
+results = func.remote(feed_url, '/content/podcast/')
+
+podcast_details = results.get("podcast_details", False)
+
+if (not podcast_details):
+    print("No podcast details found")
+    exit()
 
 filename = f"{podcast_details['podcast_title']} {podcast_details['episode_title']}.json".split(" ").join("-")
 
