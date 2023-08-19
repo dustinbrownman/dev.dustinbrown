@@ -7,9 +7,7 @@ feed_url = sys.argv[1]
 
 func = modal.Function.lookup("corise-podcast-project", "process_podcast")
 
-output = func.remote(feed_url, '/content/podcast/')
-
-podcast_details = json.loads(output)
+podcast_details = func.remote(feed_url, '/content/podcast/')
 
 filename = f"{podcast_details['podcast_title']} {podcast_details['episode_title']}.json".split(" ").join("-")
 
