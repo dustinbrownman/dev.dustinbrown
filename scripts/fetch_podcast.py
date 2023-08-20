@@ -17,8 +17,6 @@ else:
         "https://feeds.npr.org/510289/podcast.xml"
     ]
 
-
-
 def build_latest_episode_summary(feed_url):
     # Check to see if a post for this podcast already exists. If so, exit.
     feed = feedparser.parse(feed_url)
