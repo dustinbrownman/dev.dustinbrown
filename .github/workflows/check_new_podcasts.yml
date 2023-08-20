@@ -34,11 +34,11 @@ jobs:
       - name: Execute manual script
         if: ${{ inputs.feedUrl != '' }}
         run: |
-          python scripts/fetch_podcast.py ${{ inputs.feedUrl }}
+          python scripts/fetch_podcast.py --manual ${{ inputs.feedUrl }}
       - name: Execute automatic script
         if: ${{ inputs.feedUrl == '' }}
         run: |
-          python scripts/fetch_podcast.py https://feeds.simplecast.com/2V4dK4EE https://feeds.simplecast.com/ioCY0vfY https://www.marketplace.org/feed/podcast/marketplace
+          python scripts/fetch_podcast.py
       - name: Commit and push changes
         run: |
           if [[ $(git status --porcelain) ]]; then

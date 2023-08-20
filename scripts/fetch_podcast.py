@@ -4,7 +4,20 @@ import modal
 import feedparser
 from datetime import date
 
-feed_urls = sys.argv[1:]
+feed_urls = []
+manual_flag = sys.argv[1]
+
+if (manual_flag == "--manual"):
+    feed_urls = sys.argv[2:]
+else:
+    feed_urls = [
+        "https://feeds.simplecast.com/2V4dK4EE",
+        "https://feeds.simplecast.com/ioCY0vfY",
+        "https://www.marketplace.org/feed/podcast/marketplace",
+        "https://feeds.npr.org/510289/podcast.xml"
+    ]
+
+
 
 def build_latest_episode_summary(feed_url):
     # Check to see if a post for this podcast already exists. If so, exit.
@@ -17,7 +30,7 @@ def build_latest_episode_summary(feed_url):
 
     if (os.path.isfile(filepath)):
         print("File already exists")
-        exit()
+        return
 
     # Run Modal function to parse podcast
     func = modal.Function.lookup("corise-podcast-project", "process_podcast")
@@ -30,7 +43,7 @@ def build_latest_episode_summary(feed_url):
 
     if (not details):
         print("No podcast details found")
-        exit()
+        return
 
     # Use the details from the parsed podcast to ensure they're correct
     filename = "-".join(f"{details['podcast_title']} {details['episode_title']}.md".lower().split(" "))
