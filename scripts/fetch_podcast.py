@@ -45,12 +45,12 @@ def build_latest_episode_summary(feed_url):
     print(f"Processing {feed_url}...")
     # Run Modal function to parse podcast
     func = modal.Function.lookup("corise-podcast-project", "process_podcast")
-    results = func.remote(feed_url, '/content/podcast/')
+    results = func.remote(feed_url, 0)
 
     details = results.get("podcast_details", False)
-    summary = results.get("podcast_summary", False)
-    guests = results.get("podcast_guests", False)
-    highlights = results.get("podcast_highlights", False)
+    summary = results.get("summary", False)
+    guests = results.get("guests", False)
+    highlights = results.get("highlights", False)
 
     if (not details):
         print("No podcast details found")
@@ -59,16 +59,16 @@ def build_latest_episode_summary(feed_url):
     print("Creating podcast markdown file...")
 
     # Use the details from the parsed podcast to ensure they're correct
-    filename = create_filename(details['podcast_title'], details['episode_title'])
+    filename = create_filename(details['title'], details['episode']['title'])
     filepath = f"content/podcasts/{filename}"
 
     # Create the podcast markdown file
     template = f"""---
-title: {details['podcast_title']} | {details['episode_title']}
-date: {date.today()}
+title: {details['title']} | {details['episode']['title']}
+date: {details['episode']['pubDate']}
 ---
 
-![episode image]({details['episode_image']})
+![podcast image]({details['image']})
 
 """
 
