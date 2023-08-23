@@ -65,7 +65,7 @@ def build_latest_episode_summary(feed_url):
     # Create the podcast markdown file
     template = f"""---
 title: {details['title']} | {details['episode']['title']}
-date: {details['episode']['pubDate']}
+date: {details['episode']['published']}
 ---
 
 ![podcast image]({details['image']})
