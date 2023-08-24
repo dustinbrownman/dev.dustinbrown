@@ -1,6 +1,6 @@
 ---
-title: Planet Money | Summer School 7: Negotiating and the empathetic nibble
-date: Wed, 23 Aug 2023 21:00:09 +0000
+title: "Planet Money | Summer School 7: Negotiating and the empathetic nibble"
+date: "Wed, 23 Aug 2023 21:00:09 +0000"
 ---
 
 ![podcast image](https://media.npr.org/assets/img/2022/10/24/pm_new_tile_2022_sq-b4af5aab11c84cfae38eafa1db74a6da943d4e7f.jpg?s=1400&c=66&f=jpg)
